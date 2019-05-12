@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*全局开始*/
+*{margin:0;padding:0;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+body{
+	font-size:12px;
+	color: #6B6A6A;
+	font-family: "Arial","微软雅黑",verdana,helvetica,sans-serif;
+    width:100%; 
+    background-color: #E4E3E2;
+}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+img{border:0 none;}
+a{outline:none; text-decoration:none; color:#353535;}
+a:hover{ text-decoration:none;}
+a.aHover{ color:#2953A6;}
+a.aHover:hover{text-decoration:underline; cursor:pointer;}
+.clearfix{zoom:1;}
+.clearfix:after{display:block; visibility:hidden; height:0px; content:''; font-size:0px; clear:both;}
+.fb{font-weight:bold;}
+.fl{ float:left;}
+.fr{ float:right;}
+.hide{display:none;}
+.show{display:block;}
+.white{color:#fff;}
+.red{color:#f00;}
+.pleft10{padding-left:10px;}
+.fs14{font-size:14px;}
+.cs{cursor:pointer;}
+.ptop27{ padding-top:27px;}
+em,i,b{font-style:normal}
+/*h1, h2, h3, h4, h5, h6 { font-size: 12px ;font-weight: normal;}*/
+
+.w {
+    margin: auto;
+    width: 990px;
+}
+
+
+/* footer */
+.ft-help-list {
+    border-right: 1px solid #000;
+}
+.ft-help-list dl {
+    float: left;
+    width: 198px;
+}
+.ft-help-list dl dt {
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    line-height: 32px;
+    overflow: hidden;
+    font-family: "Microsoft YaHei";
+    color: #666;
+    font-weight: bold;
+}
+.ft-help-list dl dd {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: normal;
+    font-size: 12px;
+}
+.ft-info-link {
+    margin-left: 40px;
+}
+.ft-contact-phone {
+    margin-bottom: 20px; 
+}
+.ft-follow-me {
+    margin-right: 80px; 
+}
+.ft-code-gd {
+    margin-right: 80px; 
+}
+.ft-copyright {
+    background-color:#D1D2D3;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
